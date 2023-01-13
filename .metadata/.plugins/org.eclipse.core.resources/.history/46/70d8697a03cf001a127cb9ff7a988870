@@ -1,0 +1,25 @@
+package inheritencePractice;
+import java.util.Scanner;
+public class A {
+	
+	Scanner sc=new Scanner(System.in);
+//  public int i,j;
+	private int i,j;
+	public void input()
+	{
+		System.out.println("Enter The Value Of I");
+		i=sc.nextInt();
+		System.out.println("Enter The Value Of J");
+		j=sc.nextInt();
+		
+	}
+  public void showIJ()
+  {
+    
+	  System.out.println("THE vALUE oF i And J iS=>"+i+" "+j);
+  }
+  public int sum1()
+  {
+	  return (i+j);
+  }
+}

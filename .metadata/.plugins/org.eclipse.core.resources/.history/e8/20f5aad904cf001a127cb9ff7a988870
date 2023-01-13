@@ -1,0 +1,22 @@
+package inheritencePractice;
+
+public class B extends A{
+	private int k;
+	
+	public void showK()
+	{
+		
+		System.out.println("The Value Of K Is=>"+k);
+	}
+	public void sum()
+	{
+		System.out.println("The Sum Is=>"+ (sum1()+k));
+	}
+	public void input1()
+	{
+		input();
+		System.out.println("Enter The Value Of K");
+		k=sc.nextInt();
+	}
+
+} 

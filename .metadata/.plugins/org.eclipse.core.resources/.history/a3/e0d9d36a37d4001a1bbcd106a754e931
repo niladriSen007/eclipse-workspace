@@ -1,0 +1,14 @@
+package call;
+
+public class TEST {
+	
+	int x=1,y=2;
+	void meth(int a,int b)
+	{
+		this.x=a*2;
+		this.y=b/2;
+		System.out.println("hi");
+	}
+	
+	
+}

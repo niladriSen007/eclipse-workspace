@@ -1,0 +1,27 @@
+package box;
+import java.util.Scanner;
+public class Box {
+
+	
+		Scanner sc=new Scanner(System.in);
+		
+		 double width;
+		 double height;
+		 double depth;
+		  void volume()
+		{
+			System.out.println("VOLUME IS"+ width*height*depth);
+		}
+		
+//		public void input()
+//		{
+//			System.out.println("Enter The Width,Height,Depth");
+//			width=sc.nextDouble();
+//			height=sc.nextDouble();
+//			depth=sc.nextDouble();
+//			volume();
+//		}
+
+	}
+
+

@@ -1,0 +1,36 @@
+package classConstructor;
+class veichle
+{
+	String color;
+	veichle()
+	{
+	  System.out.println("HI");
+	}
+	veichle(int x)
+	{
+		System.out.println("Speed is= "+x);
+	}
+	veichle(int x,double y)
+	{
+		int weight=(int)x;
+		int price=(int)y;
+		System.out.println("The Weight Is="+weight+" The Price Is "+price);
+	}
+	veichle(double y,double z)
+	{
+		System.out.println("Colour is="+color+"It Has "+y+" gears and has accelaration of "+z+"kMph");
+	}
+}
+public class ClassConstructor {
+
+	public static void main(String[] args) {
+
+     veichle ob=new veichle();
+     veichle ob1=new veichle(123);
+     veichle ob2=new veichle(345,15000.78);
+     veichle ob3=new veichle(5,145.89);
+    
+
+	}
+
+}

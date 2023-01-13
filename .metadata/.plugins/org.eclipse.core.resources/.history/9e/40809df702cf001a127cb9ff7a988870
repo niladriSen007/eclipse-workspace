@@ -1,0 +1,16 @@
+package inheritencePractice;
+
+public class B extends A{
+	public int k;
+	
+	public void showK()
+	{
+		
+		System.out.println("The Value Of K Is=>"+k);
+	}
+	public void sum()
+	{
+		System.out.println("The Sum Is=>"+ (i+j+k));
+	}
+
+}

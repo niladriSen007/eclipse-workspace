@@ -1,0 +1,15 @@
+package inheritencePractice;
+import java.util.Scanner;
+public class A {
+	
+	Scanner sc=new Scanner(System.in);
+//  public int i,j;
+	private int i,j;
+	
+  public void showIJ()
+ 
+  {
+    
+	  System.out.println("THE vALUE oF i And J iS=>"+i+" "+j);
+  }
+}

@@ -1,0 +1,22 @@
+
+class Factorial
+{
+	int result;
+	public int fact(int n)
+	{
+		if(n==0 || n==1) return 1;
+		else return(n*fact(n-1));
+	}
+}
+
+public class Recursion {
+
+	public static void main(String[] args) {
+		Factorial ob=new Factorial();
+		ob.fact(5);
+		ob.fact(4);
+		ob.fact(6);
+
+	}
+
+}

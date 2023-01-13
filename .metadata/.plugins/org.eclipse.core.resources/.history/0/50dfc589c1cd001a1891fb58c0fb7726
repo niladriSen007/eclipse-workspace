@@ -1,0 +1,14 @@
+package constructor;
+
+public class myBox {
+
+	public static void main(String[] args) {
+		BOX myBox1=new BOX();
+		BOX myBox2=new BOX();
+		
+		System.out.println(myBox1.volume());
+		System.out.println(myBox2.volume());
+
+	}
+
+}

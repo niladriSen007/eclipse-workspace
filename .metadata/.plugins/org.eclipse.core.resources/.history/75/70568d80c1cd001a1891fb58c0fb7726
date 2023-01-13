@@ -1,0 +1,25 @@
+package constructor;
+import java.util.Scanner;
+public class BOX {
+	Scanner sc=new Scanner(System.in);
+	
+	private double width;
+	private double height;
+	private double bredth;
+	
+	BOX()
+	{
+		System.out.println("Constructing The Box");
+		System.out.println("Enter The Width,Height,Bredth");
+		width=sc.nextDouble();
+		height=sc.nextDouble();
+		bredth=sc.nextDouble();
+		
+	}
+	
+	public double volume()
+	{
+		return width*height*bredth;
+	}
+
+}
